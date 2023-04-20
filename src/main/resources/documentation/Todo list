@@ -1,0 +1,11 @@
+Do điều kiện thời gian chưa ủng hộ nên cháu chỉ làm demo được một số API, nếu có thời gian thì có thể optimize chuyên nghiệp bằng:
+Về module login: 
+- Đăng ký Microsoft Azure để lưu Public Key, Private Key
+- Sử dụng DB Redis để lưu phân quyền theo cấp bậc (1, 2, 3 ...)
+- Cộng tác với bên thứ 3 tích hợp gửi OTP (Zalo, Com...)
+Về DB
+- Có thể sử dụng EventStore lưu logs lắng nghe (phù hợp microservice)
+- Dùng Redis (đã nêu trên)
+- RavenDB (Phân tích tổng hợp dữ liệu theo luồng ETL)
+Về luồng đi sản phẩm
+Cần phải bàn thêm do chưa hình dung sản phẩm (cần tài liệu đầy đủ)
